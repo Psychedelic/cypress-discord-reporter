@@ -64,9 +64,9 @@ async function compileResults(results){
 		passedTests.length > 0 &&
 		passedTests.length === totalTests - skippedTests.length
 	) {
-		title = 'All test cases passed'
+		title = 'Regression:'
 		color = Color.GREEN
-		text = `**Number of test cases that passed: **${passedTests.length}\n`
+		text = `**Test cases that passed: **${passedTests.length}\n`
 		image = 'https://raw.githubusercontent.com/piopi/cypress-discord-reporter/main/assets/images/passed.png'
 	} else {
 		title = 'Unknown Status'
