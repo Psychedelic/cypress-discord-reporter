@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piopi/cypress-discord-reporter.git"
+    "url": "git+https://github.com/Psychedelic/cypress-discord-reporter.git"
   },
   "scripts": {
     "cypress-discord:report": "npx node src/index.js cypress run"
