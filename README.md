@@ -27,7 +27,7 @@ How discord message looks like
 ## Installation
 
 ```
-npm install cypress-discord-reporter --save-dev
+npm install @psychedelic/cypress-discord-reporter --save-dev
 ```
 ## Configuration
 
