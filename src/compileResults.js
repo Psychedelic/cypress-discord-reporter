@@ -64,7 +64,7 @@ async function compileResults(results){
 		passedTests.length > 0 &&
 		passedTests.length === totalTests - skippedTests.length
 	) {
-		title = 'Regression:'
+		title = `${process.env.DISCORD_WEBHOOK_PROJECT_NAME} Regression:`
 		color = Color.GREEN
 		text = `**Test cases that passed: **${passedTests.length}\n`
 		image = 'https://raw.githubusercontent.com/piopi/cypress-discord-reporter/main/assets/images/passed.png'
